@@ -163,6 +163,7 @@ void alarmlight()
     analogWrite(WHITEpin, w);
     delay(FADESPEED);
     }
+// Set boolean variables to HIGH, so light alarm stays on until reset  
 Lightstatus = HIGH;
 Bluestatus = HIGH;
 Redstatus = HIGH;
