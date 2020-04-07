@@ -1,4 +1,4 @@
-//By Jan Riedel
+//By Jan Riedel & Jo Zhou
 //Adafruit Feather Huzzah 8266 and RGBW LED strip
 
 #include <ESP8266WiFi.h> // Include WiFi library
