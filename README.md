@@ -10,9 +10,11 @@ Making an DIY light alarm with a RGBW LED strip. The light alarm will simulate t
 
 In this project I used an Adafruit Feather Huzzah ESP8266, with DS3231m RTC to control a RGBW LED strip. The microcontroller is connected to the home WiFi network and can be controlled from any device that can run a browser. 
 
-<img src="images/interface.png" width="200">
+<img src="images/interface.png" width="200"> <img src="images/interface2.png" width="200">
 screenshot from iPhone
+
+
 
 ## Getting Started
 
-<img src="images/interface.png" width="200">
+
