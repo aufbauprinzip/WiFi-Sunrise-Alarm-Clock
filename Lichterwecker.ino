@@ -33,7 +33,7 @@ uint8_t Alarmhour = 65;
 uint8_t Alarmminute = 65;
 
 //Define and set variable for delay when turning leds in "alarmlight()"
-uint16_t FADESPEED = 500;
+const uint16_t FADESPEED = 500;
 
 void setup()
 {
@@ -58,7 +58,7 @@ void setup()
       delay(1000);
     }
   DS3231M.pinSquareWave(); // Make INT/SQW pin toggle at 1Hz
-  //DS3231M.adjust(DateTime(2020, 4, 4, 13, 04, 00)); // Sets time of DS3231M
+  //DS3231M.adjust(DateTime(2020, 4, 4, 13, 04, 00)); // Sets time of DS3231M (format: YEAR, M, D, HR, MM, SS)
   Serial.println("DS3231M initialized.");
   digitalWrite(REDpin, LOW); // Turns red LED off, in case it stayed on in initial sequence
   
