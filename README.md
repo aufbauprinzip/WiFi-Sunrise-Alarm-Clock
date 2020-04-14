@@ -80,7 +80,7 @@ Greenstatus = HIGH;
 ```
 
 The output and style of the HTML page can be customized in the SendHTML string 
-```c
+```html
 //Strings hold HTML and CSS styling
 String SendHTML(uint8_t lightstat,uint8_t nightlightstat,uint8_t bluestat,uint8_t redstat,uint8_t greenstat, uint8_t actualhh, uint8_t actualmm, uint8_t alarmhh, uint8_t alarmmm){
   String ptr = "<!DOCTYPE html> <html>\n";
