@@ -1,2 +1,6 @@
 # Light-Alarm-Clock
 ESP8266 Light Alarm Clock with RGBW led strip
+## Idea
+
+## Getting Started
+
