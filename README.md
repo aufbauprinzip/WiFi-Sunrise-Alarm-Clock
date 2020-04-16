@@ -1,4 +1,4 @@
-# Sunrise-Alarm-Clock
+# WiFi-Sunrise-Alarm-Clock
 
 ESP8266 microcontroller with DS3231m to control an RGBW LED strip and turn it into a web interfaceable light alarm (Lichtwecker!)
 
