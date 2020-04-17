@@ -25,7 +25,7 @@ A parts list and more detailed descriptions of the project (schematics, PCB desg
 
 ## Getting Started
 
-Change WiFi-Name and WiFi-Password to your credentials:
+Replace WiFi-Name and WiFi-Password with your credentials:
 ```c
 // SSID of WiFi network and password of WiFi network
 const char* ssid = "WiFi-Name";
