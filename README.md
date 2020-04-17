@@ -41,12 +41,12 @@ uint8_t REDpin = 14;
 uint8_t GREENpin = 12;
 ```
 
-Set intial time of RTC by commenting this line and setting the current time. After setting the time, comment this line again and upload it to the microcontroller again. The DS3231(M) can also fetch the time automatically the time from the internet. I didn't wanted to relay on a internet connection with this code though. Once the time is set, the DS3231(M) is very reliable and can hold the time untile the 3V battery runs out (years, if not decades)
+Set intial time of RTC by uncommenting this line and changing arguments to the current time. Comment this line again and upload it to the microcontroller again. The DS3231(M) can also fetch the time automatically from the internet. I didn't want to depend on a internet connection with this code though and choose to manually set the time and date. Once the time is set, the DS3231(M) is very reliable and can hold the time until the 3V battery runs out (years, if not decades).
 ```c
   //DS3231M.adjust(DateTime(2020, 4, 4, 13, 04, 00)); // Sets time of DS3231M
 ```
 
-The alarmlight() function controls what happens in the case of the alarm and be changed to customize the sunrise simulation or trigger completely different features light strobe light for example
+The alarmlight() function tells the microcontroller what to do during the alarm and be changed to customize the sunrise simulation or trigger completely different features light strobe light for example.
 ```c
 //Definition of custom functions for calling certain URLs and turning the alarm light on
 //Alarm light function that slow turns on LEDs, mimicking sunrise;
@@ -79,7 +79,8 @@ Greenstatus = HIGH;
 }
 ```
 
-The output and style of the HTML page can be customized in the SendHTML string 
+The output and style of the HTML page can be customized in the SendHTML string. 
+
 ```html
 //Strings hold HTML and CSS styling
 String SendHTML(uint8_t lightstat,uint8_t nightlightstat,uint8_t bluestat,uint8_t redstat,uint8_t greenstat, uint8_t actualhh, uint8_t actualmm, uint8_t alarmhh, uint8_t alarmmm){
