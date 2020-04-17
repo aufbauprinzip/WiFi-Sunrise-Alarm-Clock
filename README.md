@@ -1,26 +1,26 @@
 # WiFi-Sunrise-Alarm-Clock
 
-ESP8266 microcontroller with DS3231m to control an RGBW LED strip and turn it into a web interfaceable light alarm (Lichtwecker!)
+ESP8266 microcontroller with DS3231m RTC to control an RGBW LED strip and turn it into a web interfaceable sunrise alarm (Lichtwecker!)
 
 ## Idea
 
-Making an DIY light alarm with a RGBW LED strip. The light alarm will simulate the sunrise the sunrise to wake you up softly.
+Making a DIY sunrise alarm with a RGBW LED strip that can be controlled through a web browser. The simulated sunrise that wakes you up softly.
 
 ## Setup & Functions
 
-In this project I used an Adafruit Feather Huzzah ESP8266, with DS3231m RTC to control a RGBW LED strip. The microcontroller is connected to the home WiFi network and can be controlled from any device that can run a browser. 
+In this project I used an Adafruit Feather Huzzah ESP8266, with DS3231m RTC to control a RGBW LED strip through N-channel MOSFET's. The microcontroller is connected to the home WiFi network and can be controlled from any device that can run a browser. 
 
-A parts list and more detailed description of the electronic side of the project can be found on http://www.mypagewillcomelater.com/
+A parts list and more detailed descriptions of the project (schematics, PCB desgin, etc.) can be found on http://www.mypagewillcomelater.com/
 
 ### Functions
 
 <img src="images/interface.png" width="200"> <img src="images/interface2.png" width="200">
 
-* toggle individual LED with corresponding button (Red, Green, Blue or White)
-* toggle "Night Light" (mix of RGB)
+* toggle individual LED's with corresponding buttons (Red, Green, Blue or White)
+* toggle "Night Light" (mix of RGB to give a soft purple light)
 * set alarm time (in 24h format)
-* reset button will appear after setting alarm time
-* blinks red when RTC can not be initialized
+* reset button, which will appear after setting the alarm time
+* LED strip blinks red when RTC can not be initialized
 
 
 ## Getting Started
