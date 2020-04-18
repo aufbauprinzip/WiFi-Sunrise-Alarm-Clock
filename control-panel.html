@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no'>
+  <title>Lichtwecker</title>
+  <style>html {background-color: black;font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;}
+  body{margin-top: 50px;color: white;font-size: 14px} h1 {color: #fff;margin: 50px auto 30px;} h3 {color: #444444;margin-bottom: 50px;}
+  .button {display: block;width: 80px;background-color: #1abc9c;border: none;color: white;padding: 13px 30px;text-decoration: none;font-size: 25px;margin: 0px auto 35px;cursor: pointer;border-radius: 20px;}
+  .button-on {background-color: #6FB98F;}
+  .button-on:active {background-color: #45BD79;}
+  .button-off {background-color: #F18D9E;}
+  .button-off:active {background-color: #EE5972;}
+  .time {margin-right: 5px;margin-left: 5px;padding: 5px 10px;border: none;border-radius: 4px;background-color: #4d4d4d;color: #cecece;}
+  .submit {margin-left: 5px;padding: 6px 10px;border: none;border-radius: 4px;background-color: #4d4d4d;color: #cecece;text-decoration: none}
+  .form {margin: 0px auto 20px;}
+  p {font-size: 14px;color: #fff;margin-bottom: 10px;}
+  </style>
+</head>
+<body>
+
+<h1>ESP8266 Lichtwecker </h1>
+<p>Current Time: </p>
+<p>Alarm Time: </p>
+
+  <form class='form' method ='GET' action='/alarmtime'>
+  <select class='time' name = hour>
+  <option value='0'>0</option>
+  <option value='1'>1</option>
+  <option value='2'>2</option>
+  <option value='3'>3</option>
+  <option value='4'>4</option>
+  <option value='5'>5</option>
+  <option value='6'>6</option>
+  <option value='7'>7</option>
+  <option value='8'>8</option>
+  <option value='9'>9</option>
+  <option value='10'>10</option>
+  <option value='11'>11</option>
+  <option value='12'>12</option>
+  <option value='13'>13</option>
+  <option value='14'>14</option>
+  <option value='15'>15</option>
+  <option value='16'>16</option>
+  <option value='17'>17</option>
+  <option value='18'>18</option>
+  <option value='19'>19</option>
+  <option value='20'>20</option>
+  <option value='21'>21</option>
+  <option value='22'>22</option>
+  <option value='23'>23</option>
+  </select>
+  :
+  <select class='time' name= minute>
+  <option value='00'>00</option>
+  <option value='10'>10</option>
+  <option value='20'>20</option>
+  <option value='30'>30</option>
+  <option value='40'>40</option>
+  <option value='50'>50</option>
+  </select>
+  <input class='submit' type='submit' value='Set Alarm'>
+  </form>
+  
+  <a class='submit' href='/alarmreset'>Alarmreset</a>
+
+
+<p>Light State: ON</p><a class='button button-off' href='/lightoff'>OFF</a>
+
+<p>Night Light State: OFF</p><a class='button button-on' href='/nightlightoff'>ON</a>
+  
+<p>Blue State: OFF</p><a class='button button-on' href='/blueoff'>ON</a>
+  
+<p>Red State: OFF</p><a class='button button-on' href='/redoff'>ON</a>
+  
+<p>Green State: OFF</p><a class='button button-on' href='/greenoff'>ON</a>
+  
+</body>
+</html>
