@@ -10,7 +10,7 @@ Making a DIY sunrise alarm with a RGBW LED strip that can be controlled through 
 
 In this project I used an Adafruit Feather Huzzah ESP8266, with DS3231m RTC to control a RGBW LED strip through N-channel MOSFET's. The microcontroller is connected to the home WiFi network and can be controlled from any device that can run a browser. 
 
-A parts list and more detailed descriptions of the project (schematics, PCB desgin, etc.) can be found on http://www.mypagewillcomelater.com/
+A parts list and more detailed descriptions of the project (schematics, PCB desgin, etc.) can be found on https://www.aufbauprinzip.com/blog/
 
 ### Functions
 
