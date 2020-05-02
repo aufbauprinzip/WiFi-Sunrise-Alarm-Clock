@@ -2,6 +2,10 @@
 
 ESP8266 microcontroller with DS3231m RTC to control an RGBW LED strip and turn it into a web interfaceable sunrise alarm (Lichtwecker!)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NbgbeNN9tp0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FhJ_b05oGlA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Idea
 
 Making a DIY sunrise alarm with a RGBW LED strip that can be controlled through a web browser. The simulated sunrise that wakes you up softly.
