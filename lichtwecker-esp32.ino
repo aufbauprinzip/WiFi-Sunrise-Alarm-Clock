@@ -7,8 +7,8 @@
 #include <DS3231M.h> // Include the DS3231M RTC library
 
 // SSID of WiFi network and password of WiFi network
-const char* ssid = "ssid";
-const char* password = "password"; 
+const char* ssid = "WiFi-Name";
+const char* password = "WiFi-Password"; 
 
 //Creates an instance of the DS3231M class and server object on port 80l standard port for webbrowsers talking to web servers
 DS3231M_Class DS3231M;       
