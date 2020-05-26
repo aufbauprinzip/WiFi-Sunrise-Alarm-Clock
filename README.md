@@ -2,6 +2,8 @@
 
 ESP8266 microcontroller with DS3231m RTC to control an RGBW LED strip and turn it into a web interfaceable sunrise alarm (Lichtwecker!)
 
+An ESP32-S compatible sketch is available as well!
+
 https://www.youtube.com/watch?v=NbgbeNN9tp0
 
 ## Idea
