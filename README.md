@@ -1,18 +1,18 @@
-# ESP8266-LED-RGB-Slider
+# WiFi-Sunrise-Alarm-Clock
 
-This package of html, css and javascript lets you control your RGB-LED strips dynamically by just dialing in the colours from your phone
-or any other device that can run a browser. One benefit is that you don't need any third party service or a constant internet connection
-like in the case with some IoT solutions!
+ESP8266 microcontroller with DS3231m RTC to control an RGBW LED strip and turn it into a web interfaceable sunrise alarm (Lichtwecker!)
 
+An ESP32-S compatible sketch is available as well!
+
+https://www.youtube.com/watch?v=NbgbeNN9tp0
 ## Idea
 
-Dialing in the desired colour from a web based platform by just using hmtl and javascript.
-
+Making a DIY sunrise alarm with a RGBW LED strip that can be controlled through a web browser. The simulated sunrise that wakes you up softly.
 ## Setup & Functions
 
-In this project I used an Adafruit Feather Huzzah ESP8266 which controls a RGBW LED strip through N-channel MOSFET's. The microcontroller is connected to the home WiFi network and can be controlled from any device that can run a browser. 
+In this project I used an Adafruit Feather Huzzah ESP8266, with DS3231m RTC to control a RGBW LED strip through N-channel MOSFET's. The microcontroller is connected to the home WiFi network and can be controlled from any device that can run a browser.
 
-A parts list and more detailed descriptions of the project (schematics, PCB desgin, etc.) can be found on https://www.aufbauprinzip.com/blog/
+A parts list and more detailed descriptions of the project (schematics, PCB desgin, etc.) can be found on https://www.aufbauprinzip.com/home/praise-the-sun
 
 ### Functions
 
